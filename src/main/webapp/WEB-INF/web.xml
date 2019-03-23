@@ -4,15 +4,15 @@
     	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
     	version="3.1">
     	
-    	<display-name>Simple Servlet Application</display-name>
+    	<display-name>datarun</display-name>
     	<servlet>
-    		<servlet-name>simpleServlet</servlet-name>
-    		<servlet-class>placeholder</servlet-class>
+    		<servlet-name>testServlet</servlet-name>
+    		<servlet-class>datarun.ConvertServlet</servlet-class>
     		<load-on-startup>1</load-on-startup>
     	</servlet>
     	
     	<servlet-mapping>
-    		<servlet-name>simpleServlet</servlet-name>
+    		<servlet-name>testServlet</servlet-name>
     		<url-pattern>/hello</url-pattern>
     	</servlet-mapping>
     </web-app>
